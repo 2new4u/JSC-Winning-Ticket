@@ -23,7 +23,7 @@ jobs:
           gem install nokogiri open-uri json
 
       - name: Run scraper to update stats
-        run: ruby update_stats.rb
+        run: ruby .github/workflows/update_stats.rb
 
       - name: Commit and push changes
         run: |
