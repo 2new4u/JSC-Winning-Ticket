@@ -15,7 +15,7 @@ function createEmojis() {
   emoji.style.animationDuration = 3 + Math.random() * 5 + "s";
   fontSize = 1 + Math.random() * 2;
   emoji.style.fontSize = fontSize + "rem";
-  emoji.style.zIndex = fontSize < 0.5 ? -1 : 1;
+  emoji.style.zIndex = fontSize < 1.5 ? -1 : 1;
   document.body.appendChild(emoji);
 
   emoji.addEventListener("animationend", () => {
