@@ -12,6 +12,16 @@ function displayTicket(numbers, stars) {
   `;
 }
 
+function winningCalc(pool, count) {
+  const pool = pool.flatMap((n) => Array(n.count).fill(n.number));
+  const picks = [];
+  while (picks.length < count) {
+    const rand = pool[Math.floor(Math.random() * pool.length)];
+    if (!picks.includes(rand)) picks.push(rand);
+  }
+  return picks;
+}
+
 async function getTicket(type) {
   const data = await loadData();
   const numbers = [];
@@ -37,15 +47,6 @@ async function getTicket(type) {
       .slice(0, 2)
       .map((s) => s.number);
   } else {
-    function winningCalc(pool, count) {
-      const pool = pool.flatMap((n) => Array(n.count).fill(n.number));
-      const picks = [];
-      while (picks.length < count) {
-        const rand = pool[Math.floor(Math.random() * pool.length)];
-        if (!picks.includes(rand)) picks.push(rand);
-      }
-      return picks;
-    }
     numbers = winningCalc(data.numbers, 5);
     stars = winningCalc(data.stars, 2);
   }
