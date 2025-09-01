@@ -8,7 +8,7 @@ function displayTicket(numbers, stars) {
   const ticketElement = document.getElementById("ticket");
   ticketElement.innerHTML = `
     <h1>${numbers.join(", ")}</h1>
-    <h2>${stars.join(", ")}</h>
+    <h2>${stars.join(", ")}</h2>
   `;
 }
 
