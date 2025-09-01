@@ -14,40 +14,41 @@ function displayTicket(numbers, stars) {
 
 async function getTicket(type) {
   const data = await loadData();
-
+  const numbers = [];
+  const stars = [];
   if (type === "hottest") {
-    const numbers = [...data.numbers]
+    numbers = [...data.numbers]
       .sort((a, b) => b.count - a.count)
       .slice(0, 5)
       .map((n) => n.number);
 
-    const stars = [...data.stars]
+    stars = [...data.stars]
       .sort((a, b) => b.count - a.count)
       .slice(0, 2)
       .map((s) => s.number);
   } else if (type === "coldest") {
-    const numbers = [...data.numbers]
+    numbers = [...data.numbers]
       .sort((a, b) => b.absence - a.absence)
       .slice(0, 5)
       .map((n) => n.number);
 
-    const stars = [...data.stars]
+    stars = [...data.stars]
       .sort((a, b) => b.absence - a.absence)
       .slice(0, 2)
       .map((s) => s.number);
   } else {
     function winningCalc(pool, count) {
-      const expanded = pool.flatMap((n) => Array(n.count).fill(n.number));
+      const pool = pool.flatMap((n) => Array(n.count).fill(n.number));
       const picks = [];
       while (picks.length < count) {
-        const rand = expanded[Math.floor(Math.random() * expanded.length)];
+        const rand = pool[Math.floor(Math.random() * pool.length)];
         if (!picks.includes(rand)) picks.push(rand);
       }
       return picks;
     }
-    const numbers = winningCalc(data.numbers, 5);
-    const stars = winningCalc(data.stars, 2);
+    numbers = winningCalc(data.numbers, 5);
+    stars = winningCalc(data.stars, 2);
   }
 
-  displayTicket(hottestNumbers, hottestStars);
+  displayTicket(numbers, stars);
 }
