@@ -3,27 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta property="og:title" content="JSC Winning Ticket">
+    <meta property="og:title" content="🗝️Chave milionária💰">
     <meta property="og:description"
-        content="A smart-sounding, though not mathematically proven, way to calculate the winning Euromillions ticket.">
+        content="Uma forma inteligente, embora não matematicamente comprovada, de calcular a chave vencedora do Euromilhões.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSC Winning Ticket</title>
+    <title>🗝️Chave milionária💰</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
     <div class="container">
         <div class="ticket-box">
-            <h1 id="ticket"></h1>
+            <h1 id="ticket">Clica num dos botões para gerar uma chave!</h1>
             <div class="button-group">
-                <button class="ticket-button" onclick="getHottestTicket()">🔥 Most pulled numbers 🔥</button>
-                <button class="ticket-button" onclick="getColdestTicket()">❄️ Least pulled numbers ❄️</button>
-                <button class="ticket-button" onclick="getWinningTicket()">🤑 The winning ticket! 🤑</button>
+                <button class="ticket-button hot" onclick="getHottestTicket()">Os números mais sorteados</button>
+                <button class="ticket-button cold" onclick="getColdestTicket()">Os números menos sorteados</button>
+                <button class="ticket-button winning" onclick="getWinningTicket()">Chave Vencedora</button>
             </div>
         </div>
     </div>
 
-    <script src="js/script.js"></script>
+    <footer>
+        <div>
+            &copy; 2025 2new4u. All rights reserved.
+        </div>
+    </footer>
 </body>
+
+<script src="js/script.js"></script>
+<script src="js/animation.js"></script>
+<script data-goatcounter="https://2new4u.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 </html>

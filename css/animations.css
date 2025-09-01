@@ -1,0 +1,13 @@
+.money {
+    position: absolute;
+    top: -2em;
+    font-size: 2rem;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0.8;
+    }
+}

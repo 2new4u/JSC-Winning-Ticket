@@ -3,18 +3,19 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Arial', sans-serif;
     background-color: #6ec590;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -23,25 +24,25 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
-    padding: 16px;
+    flex: 1 0 auto;
+    padding: 8px;
+    overflow: auto;
 }
 
 .ticket-box {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     background: white;
     border-radius: 10px;
-    padding: 40px;
+    padding: 24px;
     max-width: 600px;
     width: min(90vw, 600px);
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 2.5rem;
     color: #333;
     margin: 0 0 12px 0;
     text-align: center;
@@ -66,7 +67,7 @@ p {
 .ticket-button {
     padding: 8px 16px;
     font-size: 1rem;
-    background-color: #2372da;
+    background-color: #7d8288e3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -77,22 +78,56 @@ p {
     transition: transform .15s ease, background-color .15s ease;
 }
 
-.ticket-button:hover {
-    background-color: #185bb5;
+.hot {
+    background-color: #db5353;
+}
+
+.hot:hover {
+    background-color: #db53539d;
     transform: translateY(-1px);
 }
+
+.cold {
+    background-color: #2372da;
+}
+
+.cold:hover {
+    background-color: rgba(24, 92, 181, 0.76);
+    transform: translateY(-1px);
+}
+
+.winning {
+    background-color: #1f9c06;
+}
+
+.winning:hover {
+    background-color: #1f9c06ad;
+    transform: translateY(-1px);
+}
+
 
 .ticket-button:focus {
     outline: none;
 }
 
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+
+footer div {
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 0.3rem 2rem;
+}
+
 @media (max-width: 768px) {
     .ticket-box {
-        padding: 20px;
+        padding: 10px;
     }
 
-    h1 {
-        font-size: 2rem;
+    .container {
+        padding: 2px;
     }
 
     p {

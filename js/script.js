@@ -7,8 +7,8 @@ async function loadData() {
 function displayTicket(numbers, stars) {
   const ticketElement = document.getElementById("ticket");
   ticketElement.innerHTML = `
-    <p><strong>Numbers:</strong> ${numbers.join(", ")}</p>
-    <p><strong>Stars:</strong> ${stars.join(", ")}</p>
+    <p><strong>Números:</strong> ${numbers.join(", ")}</p>
+    <p><strong>Estrelas:</strong> ${stars.join(", ")}</p>
   `;
 }
 
