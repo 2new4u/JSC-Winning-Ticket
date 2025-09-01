@@ -4,6 +4,11 @@ function createEmojis() {
     { text: "💸" },
     { text: "💰" },
     { text: "🪙" },
+    { text: "🤑" },
+    { text: "💳" },
+    { text: "💴" },
+    { text: "💶" },
+    { text: "💷" },
   ];
 
   const { text } = emojis[Math.floor(Math.random() * emojis.length)];
