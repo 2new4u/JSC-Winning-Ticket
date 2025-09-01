@@ -53,3 +53,5 @@ async function getTicket(type) {
 
   displayTicket(numbers, stars);
 }
+
+window.getTicket = getTicket;
