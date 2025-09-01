@@ -1,8 +1,9 @@
-.money {
+.emoji {
     position: absolute;
     top: -2em;
     font-size: 2rem;
     animation: fall linear forwards;
+    z-index: -1;
 }
 
 @keyframes fall {

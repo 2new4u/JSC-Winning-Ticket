@@ -1,17 +1,25 @@
-function createCash() {
-  const cash = document.createElement("div");
-  cash.classList.add("money");
-  cash.textContent = "💸";
+function createEmojis() {
+  const emojis = [
+    { text: "💵" },
+    { text: "💸" },
+    { text: "💰" },
+    { text: "🪙" },
+  ];
 
-  cash.style.left = Math.random() * 100 + "vw";
-  cash.style.animationDuration = 3 + Math.random() * 5 + "s";
-  cash.style.fontSize = 1 + Math.random() * 2 + "rem";
+  emojis.forEach(({ text }) => {
+    const emoji = document.createElement("div");
 
-  document.body.appendChild(cash);
+    emoji.classList.add("emoji");
+    emoji.textContent = text;
+    emoji.style.left = Math.random() * 100 + "vw";
+    emoji.style.animationDuration = 3 + Math.random() * 5 + "s";
+    emoji.style.fontSize = 1 + Math.random() * 2 + "rem";
+    document.body.appendChild(emoji);
 
-  cash.addEventListener("animationend", () => {
-    cash.remove();
+    emoji.addEventListener("animationend", () => {
+      emoji.remove();
+    });
   });
 }
 
-setInterval(createCash, 300);
+setInterval(createEmojis, 1000);

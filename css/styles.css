@@ -18,6 +18,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-size: 0.5rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -27,6 +31,24 @@ body {
     flex: 1 0 auto;
     padding: 8px;
     overflow: auto;
+}
+
+h1 {
+    color: #333;
+    margin: 0 0 12px 0;
+    text-align: center;
+    word-break: break-word;
+}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+
+footer div {
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 0.3rem 2rem;
 }
 
 .ticket-box {
@@ -40,19 +62,6 @@ body {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-}
-
-h1 {
-    color: #333;
-    margin: 0 0 12px 0;
-    text-align: center;
-    word-break: break-word;
-}
-
-p {
-    font-size: 1.5rem;
-    color: #555;
-    margin: 20px 0;
 }
 
 .button-group {
@@ -78,13 +87,17 @@ p {
     transition: transform .15s ease, background-color .15s ease;
 }
 
+.ticket-button:focus {
+    outline: none;
+    transform: translateY(-1px);
+}
+
 .hot {
     background-color: #db5353;
 }
 
 .hot:hover {
     background-color: #db53539d;
-    transform: translateY(-1px);
 }
 
 .cold {
@@ -93,7 +106,6 @@ p {
 
 .cold:hover {
     background-color: rgba(24, 92, 181, 0.76);
-    transform: translateY(-1px);
 }
 
 .winning {
@@ -102,23 +114,6 @@ p {
 
 .winning:hover {
     background-color: #1f9c06ad;
-    transform: translateY(-1px);
-}
-
-
-.ticket-button:focus {
-    outline: none;
-}
-
-footer {
-    width: 100%;
-    margin-top: auto;
-}
-
-footer div {
-    font-size: 0.6rem;
-    text-align: center;
-    padding: 0.3rem 2rem;
 }
 
 @media (max-width: 768px) {
