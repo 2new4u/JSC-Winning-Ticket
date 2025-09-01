@@ -81,8 +81,6 @@ footer div {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
-    flex: 1 1 180px;
     max-width: 100%;
     transition: transform .15s ease, background-color .15s ease;
 }
