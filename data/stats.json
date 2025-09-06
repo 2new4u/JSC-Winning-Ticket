@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03T03:29:20Z",
+  "last_updated": "2025-09-06T03:29:16Z",
   "numbers": [
     {
       "number": 1,
@@ -7,31 +7,31 @@
       "percent": 9.61,
       "last_draw": "062/2025",
       "draw_date": "05/08/2025",
-      "absence": 8
+      "absence": 9
     },
     {
       "number": 2,
       "count": 176,
-      "percent": 9.4,
+      "percent": 9.39,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 3,
       "count": 185,
-      "percent": 9.88,
+      "percent": 9.87,
       "last_draw": "062/2025",
       "draw_date": "05/08/2025",
-      "absence": 8
+      "absence": 9
     },
     {
       "number": 4,
       "count": 188,
-      "percent": 10.04,
+      "percent": 10.03,
       "last_draw": "061/2025",
       "draw_date": "01/08/2025",
-      "absence": 9
+      "absence": 10
     },
     {
       "number": 5,
@@ -39,7 +39,7 @@
       "percent": 9.98,
       "last_draw": "062/2025",
       "draw_date": "05/08/2025",
-      "absence": 8
+      "absence": 9
     },
     {
       "number": 6,
@@ -47,7 +47,7 @@
       "percent": 9.66,
       "last_draw": "069/2025",
       "draw_date": "29/08/2025",
-      "absence": 1
+      "absence": 2
     },
     {
       "number": 7,
@@ -55,7 +55,7 @@
       "percent": 10.25,
       "last_draw": "059/2025",
       "draw_date": "25/07/2025",
-      "absence": 11
+      "absence": 12
     },
     {
       "number": 8,
@@ -63,7 +63,7 @@
       "percent": 9.34,
       "last_draw": "058/2025",
       "draw_date": "22/07/2025",
-      "absence": 12
+      "absence": 13
     },
     {
       "number": 9,
@@ -71,7 +71,7 @@
       "percent": 9.5,
       "last_draw": "069/2025",
       "draw_date": "29/08/2025",
-      "absence": 1
+      "absence": 2
     },
     {
       "number": 10,
@@ -79,15 +79,15 @@
       "percent": 10.73,
       "last_draw": "069/2025",
       "draw_date": "29/08/2025",
-      "absence": 1
+      "absence": 2
     },
     {
       "number": 11,
       "count": 185,
-      "percent": 9.88,
+      "percent": 9.87,
       "last_draw": "015/2025",
       "draw_date": "21/02/2025",
-      "absence": 55
+      "absence": 56
     },
     {
       "number": 12,
@@ -95,7 +95,7 @@
       "percent": 10.09,
       "last_draw": "067/2025",
       "draw_date": "22/08/2025",
-      "absence": 3
+      "absence": 4
     },
     {
       "number": 13,
@@ -103,7 +103,7 @@
       "percent": 10.09,
       "last_draw": "070/2025",
       "draw_date": "02/09/2025",
-      "absence": 0
+      "absence": 1
     },
     {
       "number": 14,
@@ -111,7 +111,7 @@
       "percent": 10.14,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 15,
@@ -119,15 +119,15 @@
       "percent": 10.41,
       "last_draw": "058/2025",
       "draw_date": "22/07/2025",
-      "absence": 12
+      "absence": 13
     },
     {
       "number": 16,
       "count": 185,
-      "percent": 9.88,
+      "percent": 9.87,
       "last_draw": "061/2025",
       "draw_date": "01/08/2025",
-      "absence": 9
+      "absence": 10
     },
     {
       "number": 17,
@@ -135,7 +135,7 @@
       "percent": 10.62,
       "last_draw": "052/2025",
       "draw_date": "01/07/2025",
-      "absence": 18
+      "absence": 19
     },
     {
       "number": 18,
@@ -143,15 +143,15 @@
       "percent": 8.86,
       "last_draw": "064/2025",
       "draw_date": "12/08/2025",
-      "absence": 6
+      "absence": 7
     },
     {
       "number": 19,
       "count": 211,
-      "percent": 11.27,
+      "percent": 11.26,
       "last_draw": "063/2025",
       "draw_date": "08/08/2025",
-      "absence": 7
+      "absence": 8
     },
     {
       "number": 20,
@@ -159,7 +159,7 @@
       "percent": 10.57,
       "last_draw": "045/2025",
       "draw_date": "06/06/2025",
-      "absence": 25
+      "absence": 26
     },
     {
       "number": 21,
@@ -167,7 +167,7 @@
       "percent": 11.05,
       "last_draw": "050/2025",
       "draw_date": "24/06/2025",
-      "absence": 20
+      "absence": 21
     },
     {
       "number": 22,
@@ -175,15 +175,15 @@
       "percent": 7.9,
       "last_draw": "048/2025",
       "draw_date": "17/06/2025",
-      "absence": 22
+      "absence": 23
     },
     {
       "number": 23,
       "count": 214,
-      "percent": 11.43,
+      "percent": 11.42,
       "last_draw": "059/2025",
       "draw_date": "25/07/2025",
-      "absence": 11
+      "absence": 12
     },
     {
       "number": 24,
@@ -191,7 +191,7 @@
       "percent": 10.09,
       "last_draw": "066/2025",
       "draw_date": "19/08/2025",
-      "absence": 4
+      "absence": 5
     },
     {
       "number": 25,
@@ -199,7 +199,7 @@
       "percent": 10.46,
       "last_draw": "061/2025",
       "draw_date": "01/08/2025",
-      "absence": 9
+      "absence": 10
     },
     {
       "number": 26,
@@ -207,15 +207,15 @@
       "percent": 10.3,
       "last_draw": "058/2025",
       "draw_date": "22/07/2025",
-      "absence": 12
+      "absence": 13
     },
     {
       "number": 27,
-      "count": 195,
-      "percent": 10.41,
-      "last_draw": "051/2025",
-      "draw_date": "27/06/2025",
-      "absence": 19
+      "count": 196,
+      "percent": 10.46,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
+      "absence": 0
     },
     {
       "number": 28,
@@ -223,30 +223,30 @@
       "percent": 9.61,
       "last_draw": "064/2025",
       "draw_date": "12/08/2025",
-      "absence": 6
+      "absence": 7
     },
     {
       "number": 29,
       "count": 205,
-      "percent": 10.95,
+      "percent": 10.94,
       "last_draw": "061/2025",
       "draw_date": "01/08/2025",
-      "absence": 9
+      "absence": 10
     },
     {
       "number": 30,
-      "count": 191,
-      "percent": 10.2,
-      "last_draw": "070/2025",
-      "draw_date": "02/09/2025",
+      "count": 192,
+      "percent": 10.25,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
       "absence": 0
     },
     {
       "number": 31,
-      "count": 176,
-      "percent": 9.4,
-      "last_draw": "070/2025",
-      "draw_date": "02/09/2025",
+      "count": 177,
+      "percent": 9.45,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
       "absence": 0
     },
     {
@@ -255,23 +255,23 @@
       "percent": 9.34,
       "last_draw": "070/2025",
       "draw_date": "02/09/2025",
-      "absence": 0
+      "absence": 1
     },
     {
       "number": 33,
       "count": 165,
-      "percent": 8.81,
+      "percent": 8.8,
       "last_draw": "058/2025",
       "draw_date": "22/07/2025",
-      "absence": 12
+      "absence": 13
     },
     {
       "number": 34,
       "count": 188,
-      "percent": 10.04,
+      "percent": 10.03,
       "last_draw": "066/2025",
       "draw_date": "19/08/2025",
-      "absence": 4
+      "absence": 5
     },
     {
       "number": 35,
@@ -279,15 +279,15 @@
       "percent": 10.41,
       "last_draw": "065/2025",
       "draw_date": "15/08/2025",
-      "absence": 5
+      "absence": 6
     },
     {
       "number": 36,
       "count": 179,
-      "percent": 9.56,
+      "percent": 9.55,
       "last_draw": "070/2025",
       "draw_date": "02/09/2025",
-      "absence": 0
+      "absence": 1
     },
     {
       "number": 37,
@@ -295,15 +295,15 @@
       "percent": 10.62,
       "last_draw": "069/2025",
       "draw_date": "29/08/2025",
-      "absence": 1
+      "absence": 2
     },
     {
       "number": 38,
       "count": 194,
-      "percent": 10.36,
+      "percent": 10.35,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 39,
@@ -311,7 +311,7 @@
       "percent": 9.82,
       "last_draw": "067/2025",
       "draw_date": "22/08/2025",
-      "absence": 3
+      "absence": 4
     },
     {
       "number": 40,
@@ -319,15 +319,15 @@
       "percent": 9.02,
       "last_draw": "065/2025",
       "draw_date": "15/08/2025",
-      "absence": 5
+      "absence": 6
     },
     {
       "number": 41,
-      "count": 168,
-      "percent": 8.97,
-      "last_draw": "066/2025",
-      "draw_date": "19/08/2025",
-      "absence": 4
+      "count": 169,
+      "percent": 9.02,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
+      "absence": 0
     },
     {
       "number": 42,
@@ -335,15 +335,15 @@
       "percent": 11.21,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 43,
-      "count": 171,
-      "percent": 9.13,
-      "last_draw": "066/2025",
-      "draw_date": "19/08/2025",
-      "absence": 4
+      "count": 172,
+      "percent": 9.18,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
+      "absence": 0
     },
     {
       "number": 44,
@@ -351,31 +351,31 @@
       "percent": 11.21,
       "last_draw": "063/2025",
       "draw_date": "08/08/2025",
-      "absence": 7
+      "absence": 8
     },
     {
       "number": 45,
       "count": 197,
-      "percent": 10.52,
+      "percent": 10.51,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 46,
       "count": 165,
-      "percent": 8.81,
+      "percent": 8.8,
       "last_draw": "064/2025",
       "draw_date": "12/08/2025",
-      "absence": 6
+      "absence": 7
     },
     {
       "number": 47,
       "count": 173,
-      "percent": 9.24,
+      "percent": 9.23,
       "last_draw": "062/2025",
       "draw_date": "05/08/2025",
-      "absence": 8
+      "absence": 9
     },
     {
       "number": 48,
@@ -383,49 +383,49 @@
       "percent": 9.77,
       "last_draw": "064/2025",
       "draw_date": "12/08/2025",
-      "absence": 6
+      "absence": 7
     },
     {
       "number": 49,
       "count": 191,
-      "percent": 10.2,
+      "percent": 10.19,
       "last_draw": "056/2025",
       "draw_date": "15/07/2025",
-      "absence": 14
+      "absence": 15
     },
     {
       "number": 50,
       "count": 205,
-      "percent": 10.95,
+      "percent": 10.94,
       "last_draw": "054/2025",
       "draw_date": "08/07/2025",
-      "absence": 16
+      "absence": 17
     }
   ],
   "stars": [
     {
       "number": 1,
       "count": 325,
-      "percent": 17.35,
+      "percent": 17.34,
       "last_draw": "070/2025",
       "draw_date": "02/09/2025",
-      "absence": 0
+      "absence": 1
     },
     {
       "number": 2,
       "count": 369,
-      "percent": 19.7,
+      "percent": 19.69,
       "last_draw": "065/2025",
       "draw_date": "15/08/2025",
-      "absence": 5
+      "absence": 6
     },
     {
       "number": 3,
       "count": 373,
-      "percent": 19.91,
+      "percent": 19.9,
       "last_draw": "064/2025",
       "draw_date": "12/08/2025",
-      "absence": 6
+      "absence": 7
     },
     {
       "number": 4,
@@ -433,71 +433,71 @@
       "percent": 15.96,
       "last_draw": "067/2025",
       "draw_date": "22/08/2025",
-      "absence": 3
+      "absence": 4
     },
     {
       "number": 5,
-      "count": 330,
-      "percent": 17.62,
-      "last_draw": "062/2025",
-      "draw_date": "05/08/2025",
-      "absence": 8
+      "count": 331,
+      "percent": 17.66,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
+      "absence": 0
     },
     {
       "number": 6,
       "count": 336,
-      "percent": 17.94,
+      "percent": 17.93,
       "last_draw": "066/2025",
       "draw_date": "19/08/2025",
-      "absence": 4
+      "absence": 5
     },
     {
       "number": 7,
       "count": 337,
-      "percent": 17.99,
+      "percent": 17.98,
       "last_draw": "069/2025",
       "draw_date": "29/08/2025",
-      "absence": 1
+      "absence": 2
     },
     {
       "number": 8,
-      "count": 358,
-      "percent": 19.11,
-      "last_draw": "066/2025",
-      "draw_date": "19/08/2025",
-      "absence": 4
+      "count": 359,
+      "percent": 19.16,
+      "last_draw": "071/2025",
+      "draw_date": "05/09/2025",
+      "absence": 0
     },
     {
       "number": 9,
       "count": 346,
-      "percent": 18.47,
+      "percent": 18.46,
       "last_draw": "064/2025",
       "draw_date": "12/08/2025",
-      "absence": 6
+      "absence": 7
     },
     {
       "number": 10,
       "count": 263,
-      "percent": 17.59,
+      "percent": 17.58,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 11,
       "count": 251,
-      "percent": 16.79,
+      "percent": 16.78,
       "last_draw": "068/2025",
       "draw_date": "26/08/2025",
-      "absence": 2
+      "absence": 3
     },
     {
       "number": 12,
       "count": 159,
-      "percent": 17.04,
+      "percent": 17.02,
       "last_draw": "070/2025",
       "draw_date": "02/09/2025",
-      "absence": 0
+      "absence": 1
     }
   ]
 }
